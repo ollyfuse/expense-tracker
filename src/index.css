@@ -1,0 +1,17 @@
+/* src/index.css */
+
+/* Tailwind CSS Base Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom styles below */
+body {
+  @apply bg-gray-100 text-gray-800; /* Example: setting a background and text color */
+}
+
+h1 {
+  @apply text-4xl font-bold; /* Example: custom heading style */
+}
+
+/* You can also add more custom styles as needed */
